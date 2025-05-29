@@ -3,7 +3,7 @@
 ### 1. 初始化云计算对象
 
 ```python
-from sp.spclass import SPCloud
+from sp.sp import SPCloud
 from ctypes import c_bool
 
 cloud = SPCloud(SP的dll目录)
