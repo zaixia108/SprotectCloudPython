@@ -9,7 +9,6 @@ class SPCloud:
         self.cloud = None
 
     #创建一个装饰器，检查是否已经创建了云计算实例
-    @staticmethod
     def check_cloud_created(func):
         def wrapper(self, *args, **kwargs):
             if self.cloud is None:
