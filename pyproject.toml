@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "SpCloud"
-version = "0.1.3"
+version = "0.1.4"
 authors = [
     { name = "zaixia108", email = "xvbowen2012@gmail.com" }
 ]
