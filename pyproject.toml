@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SpCloud"
+version = "0.1.1"
+authors = [
+    { name = "zaixia108", email = "xvbowen2012@gmail.com" }
+]
+description = "A Python package for sprotect cloud compute"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+]
+urls = { homepage = "https://github.com/zaixia108/SprotectCloudPython" }

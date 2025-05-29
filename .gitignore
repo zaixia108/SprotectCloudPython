@@ -1,0 +1,22 @@
+sp_vm_test.py
+sp_vm_test.build
+sp_vm_test.dist
+spcloud.build
+venv
+.venv
+check.ps1
+Cloud.dll
+index.html
+nuitka-crash-report.xml
+qq.py
+rr.py
+SPCloud64.h
+SPCloud64_Py.dll
+SProtectSDK64.dll
+SProtectSDK64.dll (2).bk
+test.py
+tt.py
+web_login.py
+wm.py
+sp/temp.py
+.idea
