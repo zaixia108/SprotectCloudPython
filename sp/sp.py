@@ -807,7 +807,9 @@ class SPCloud:
         online_info_list = []
 
         for i in range(info_head.u32Count):
-            online_info = info_head.Info[i]
+            # 需要将 void\* 指针转换为 TagOnlineInfo 结构体指针
+            online_info_ptr = ctypes.cast(info_head.Info[i], ctypes.POINTER(self.TagOnlineInfo))
+            online_info = online_info_ptr.contents
             online_info_list.append({
                 "u32CID": online_info.u32CID,
                 "szComputerName": online_info.szComputerName.decode('utf-8'),
